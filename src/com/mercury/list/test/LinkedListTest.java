@@ -92,6 +92,8 @@ public class LinkedListTest {
 
         testList.reverse();
         for (int i = 0; i < numVals; i++) {
+        	
+        	System.out.println("ddd"+testList.get(i));
             Assert.assertEquals(testVals[i], testList.get((numVals - 1) - i));
         }
     }

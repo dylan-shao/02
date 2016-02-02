@@ -156,7 +156,8 @@ public class LinkedList<E> implements List<E>, Iterable<E> {
 	         prev = cur;
 	         cur = next;
 	      }
-	      cur = prev;
+	      head = prev;
+	     // System.out.println(head.getLink().getLink().getData());  print out 4
 	      
 	      
 	}
